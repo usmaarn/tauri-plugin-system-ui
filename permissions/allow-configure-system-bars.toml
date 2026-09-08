@@ -1,4 +1,9 @@
+"$schema" = "../schemas/schema.json"
+
 [[permission]]
 identifier = "allow-configure-system-bars"
-description = "Allows configuring mobile system bars."
-commands.allow = ["configure_system_bars"]
+description = "Allows configuring system bars"
+
+commands.allow = [
+    "configure_system_bars"
+]

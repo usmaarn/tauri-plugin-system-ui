@@ -1,4 +1,9 @@
+"$schema" = "../schemas/schema.json"
+
 [[permission]]
 identifier = "allow-set-system-bar-theme"
-description = "Allows setting the system bar theme."
-commands.allow = ["set_system_bar_theme"]
+description = "Allows changing the system bar theme"
+
+commands.allow = [
+    "set_system_bar_theme"
+]

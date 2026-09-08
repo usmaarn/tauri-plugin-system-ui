@@ -2,14 +2,15 @@
 name = "tauri-plugin-system-ui"
 version = "0.1.0"
 description = "Tauri 2 plugin for configuring mobile system bar appearance"
-authors = ["Your Name"]
+authors = ["Usmaarn"]
 edition = "2021"
 rust-version = "1.77"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/YOUR_GITHUB_USERNAME/tauri-plugin-system-ui"
-homepage = "https://github.com/YOUR_GITHUB_USERNAME/tauri-plugin-system-ui"
+repository = "https://github.com/usmaarn/tauri-plugin-system-ui"
+homepage = "https://github.com/usmaarn/tauri-plugin-system-ui"
 keywords = ["tauri", "plugin", "mobile", "android", "ios"]
 categories = ["gui", "mobile"]
+links = "tauri-plugin-system-ui"
 
 [lib]
 name = "tauri_plugin_system_ui"
