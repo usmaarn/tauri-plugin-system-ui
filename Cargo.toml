@@ -1,0 +1,25 @@
+[package]
+name = "tauri-plugin-system-ui"
+version = "0.1.0"
+description = "Tauri 2 plugin for configuring mobile system bar appearance"
+authors = ["Your Name"]
+edition = "2021"
+rust-version = "1.77"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/YOUR_GITHUB_USERNAME/tauri-plugin-system-ui"
+homepage = "https://github.com/YOUR_GITHUB_USERNAME/tauri-plugin-system-ui"
+keywords = ["tauri", "plugin", "mobile", "android", "ios"]
+categories = ["gui", "mobile"]
+
+[lib]
+name = "tauri_plugin_system_ui"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[dependencies]
+tauri = { version = "2" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+[build-dependencies]
+tauri-plugin = { version = "2", features = ["build"] }

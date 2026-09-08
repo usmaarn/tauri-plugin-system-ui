@@ -1,0 +1,7 @@
+target/
+node_modules/
+dist-js/
+.DS_Store
+.idea/
+.vscode/
+ios/.build

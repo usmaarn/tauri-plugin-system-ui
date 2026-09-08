@@ -1,0 +1,31 @@
+{
+  "name": "tauri-plugin-system-ui",
+  "version": "0.1.0",
+  "description": "Tauri 2 mobile system UI plugin",
+  "type": "module",
+  "main": "./dist-js/index.js",
+  "types": "./dist-js/index.d.ts",
+  "files": [
+    "dist-js",
+    "guest-js",
+    "README.md",
+    "android",
+    "ios",
+    "permissions",
+    "Cargo.toml",
+    "build.rs",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12",
+    "rollup": "^4",
+    "typescript": "^5"
+  },
+  "license": "MIT"
+}

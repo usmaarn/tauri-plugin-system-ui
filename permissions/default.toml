@@ -1,0 +1,6 @@
+[default]
+description = "Default permissions for the system-ui plugin."
+permissions = [
+  "allow-configure-system-bars",
+  "allow-set-system-bar-theme"
+]
